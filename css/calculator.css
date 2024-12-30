@@ -25,6 +25,10 @@ body {
     text-align: right;
     padding: 1rem;
     font-size: 2rem;
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    display: none;
 }
 .calc-button-rows{
     border: 0px solid green;
